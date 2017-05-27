@@ -28,6 +28,6 @@ $.expr[":"].and  = window["mu-jquery-and/jquery.and"]($);
 ```
 
 ```javascript
-// Set the value of last to "Doe" if the value of first is "John"
-$("input['name'='last']:and(input[name='first'][value='John'])").val("Doe");
+// Set the value of last to "Doe" if the value of first is "John" or "Jane"
+$("input['name'='last']:and(input[name='first'][value='John'], input[name='first'][value='Jane'])").val("Doe");
 ```
