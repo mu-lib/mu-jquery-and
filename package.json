@@ -1,0 +1,26 @@
+{
+  "name": "mu-jquery-and",
+  "version": "0.0.1",
+  "description": "jQuery expression for filtering elements",
+  "main": "",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mu-lib/mu-jquery-and.git"
+  },
+  "author": "Mikael Karon <mikael@karon.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mu-lib/mu-jquery-and/issues"
+  },
+  "homepage": "https://github.com/mu-lib/mu-jquery-and#readme",
+  "dependencies": {},
+  "peerDependencies": {
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^4.0.0"
+  }
+}
