@@ -4,10 +4,10 @@
   } else if (typeof module === "object" && module.exports) {
     module.exports = factory();
   } else {
-    root["mu-jquery-and/jquery.and"] = factory();
+    root["mu-jquery-if/jquery.if"] = factory();
   }
 })(this, function () {
-  function and($, element, match) {
+  function $if($, element, match) {
     return $(match).length !== 0;
   }
 
@@ -15,11 +15,11 @@
     return $.expr.createPseudo
       ? $.expr.createPseudo(function (match) {
         return function (element) {
-          return and($, element, match);
+          return $if($, element, match);
         }
       })
       : function (element, index, match) {
-        return and($, element, match[3]);
+        return $if($, element, match[3]);
       };
   }
 });

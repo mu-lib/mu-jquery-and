@@ -16,7 +16,7 @@ bower install mu-jquery-if
 
 ```javascript
 // AMD
-require(["jquery", "mu-jquery-and/jquery.if"], function($, $if) {
+require(["jquery", "mu-jquery-if/jquery.if"], function($, $if) {
   $.expr[":"].if = $if($);
 });
 
