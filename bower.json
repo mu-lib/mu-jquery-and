@@ -1,5 +1,5 @@
 {
-  "name": "mu-jquery-and",
+  "name": "mu-jquery-if",
   "authors": [
     "Mikael Karon <mikael@karon.se>"
   ],
@@ -17,5 +17,5 @@
   "dependencies": {
     "jquery": "^3.0.0"
   },
-  "version": "0.0.3"
+  "version": "0.1.0"
 }

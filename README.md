@@ -1,33 +1,33 @@
-# mu-jquery-and
+# mu-jquery-if
 
 jQuery expression for filtering elements.
 
 ## Installation
 
 ```
-npm install mu-jquery-and
+npm install mu-jquery-if
 ```
 
 ```
-bower install mu-jquery-and
+bower install mu-jquery-if
 ```
 
 ## Usage
 
 ```javascript
 // AMD
-require(["jquery", "mu-jquery-and/jquery.and"], function($, and) {
-  $.expr[":"].and = and($);
+require(["jquery", "mu-jquery-and/jquery.if"], function($, $if) {
+  $.expr[":"].if = $if($);
 });
 
 // CJS
-$.expr[":"].and  = require("mu-jquery-and/jquery.and")($);
+$.expr[":"].if  = require("mu-jquery-if/jquery.if")($);
 
 // Global
-$.expr[":"].and  = window["mu-jquery-and/jquery.and"]($);
+$.expr[":"].if  = window["mu-jquery-if/jquery.if"]($);
 ```
 
 ```javascript
 // Set the value of last to "Doe" if the value of first is "John" or "Jane"
-$("input['name'='last']:and(input[name='first'][value='John'], input[name='first'][value='Jane'])").val("Doe");
+$("input['name'='last']:if(input[name='first'][value='John'], input[name='first'][value='Jane'])").val("Doe");
 ```

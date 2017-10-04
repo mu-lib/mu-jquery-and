@@ -1,6 +1,6 @@
 {
-  "name": "mu-jquery-and",
-  "version": "0.0.3",
+  "name": "mu-jquery-if",
+  "version": "0.1.0",
   "description": "jQuery expression for filtering elements",
   "main": "",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mu-lib/mu-jquery-and.git"
+    "url": "git+https://github.com/mu-lib/mu-jquery-if.git"
   },
   "author": "Mikael Karon <mikael@karon.se>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mu-lib/mu-jquery-and/issues"
+    "url": "https://github.com/mu-lib/mu-jquery-if/issues"
   },
-  "homepage": "https://github.com/mu-lib/mu-jquery-and#readme",
+  "homepage": "https://github.com/mu-lib/mu-jquery-if#readme",
   "dependencies": {},
   "peerDependencies": {
     "jquery": "^3.0.0"
