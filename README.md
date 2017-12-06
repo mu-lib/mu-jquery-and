@@ -1,6 +1,7 @@
-# mu-jquery-if
+# jQuery expression for filtering elements.
 
-jQuery expression for filtering elements.
+- [source](jquery.if.js)
+- [changelog](CHANGELOG.md)
 
 ## Installation
 
